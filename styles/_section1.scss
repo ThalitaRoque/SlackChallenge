@@ -6,16 +6,23 @@
 h1 {
     color: black;
     font-size: 3rem;
+    flex-direction: column;
 }
 
 
 .section1 {
     background-color: $primaryColor;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    
 }
 
 .section1 img {
     width: 300px;
+    flex-direction: row-reverse;
+}
+
+.button {
+    color: blue;
 }
